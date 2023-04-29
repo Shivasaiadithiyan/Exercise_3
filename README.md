@@ -1,1 +1,1 @@
-# This is code for vector class and matrix class.
+The problem statement is present in the Ex3.pdf file.

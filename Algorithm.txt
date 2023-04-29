@@ -1,0 +1,43 @@
+ALGORITHM for vector class:-
+
+Define a class named "vector" that will represent a vector. Inside this class:
+a. Define a constructor method called "init()" that takes a parameter called "length" with a default value of 0. Inside this method:
+i. Set the "dim" attribute of the object to "length".
+ii. Initialize the "coord" attribute of the object with a list of "length" number of zeros.
+b. Define a method called "len()" that returns the length of the vector object.
+c. Define a method called "getitem()" that takes an "index" parameter and returns the coordinate at that index.
+d. Define a method called "setitem()" that takes an "index" parameter and a "value" parameter and sets the coordinate at that index to the given value.
+e. Define a method called "add()" that takes another vector object "other" as a parameter and returns a new vector object that represents the sum of this vector and the other vector. If the dimensions of the two vectors are not equal, raise a ValueError. To create the new vector:
+i. Initialize a new vector object called "result" with the same dimension as this vector.
+ii. Iterate over the coordinates of the vector using a for loop and add the corresponding coordinates of this vector and the other vector and store the result in the corresponding coordinate of the "result" vector.
+iii. Return the "result" vector object.
+f. Define a method called "sub()" that takes another vector object "other" as a parameter and returns a new vector object that represents the difference of this vector and the other vector. If the dimensions of the two vectors are not equal, raise a ValueError. To create the new vector:
+i. Initialize a new vector object called "result" with the same dimension as this vector.
+ii. Iterate over the coordinates of the vector using a for loop and subtract the corresponding coordinates of this vector and the other vector and store the result in the corresponding coordinate of the "result" vector.
+iii. Return the "result" vector object.
+g. Define a method called "mul()" that takes another vector object "other" as a parameter and returns a new vector object that represents the product of this vector and the other vector. If the dimensions of the two vectors are not equal, raise a ValueError. To create the new vector:
+i. Initialize a new vector object called "result" with the same dimension as this vector.
+ii. Iterate over the coordinates of the vector using a for loop and multiply the corresponding coordinates of this vector and the other vector and store the result in the corresponding coordinate of the "result" vector.
+iii. Return the "result" vector object.
+h. Define a method called "truediv()" that takes another vector object "other" as a parameter and returns a new vector object that represents the division of this vector and the other vector. If the dimensions of the two vectors are not equal, raise a ValueError. To create the new vector:
+i. Initialize a new vector object called "result" with the same dimension as this vector.
+ii. Iterate over the coordinates of the vector using a for loop and divide the corresponding coordinates of this vector and the other vector and store the integer part of the result in the corresponding coordinate of the "result" vector.
+iii. Return the "result" vector object.
+i. Define a method called "str()" that returns a string representation of the vector object.
+
+Outside the class definition, create an object of the vector class by calling the constructor with a desired length.
+
+
+ALGORITHM for Matrix class.
+
+Create a Matrix class.
+Define a constructor function init() which takes row and column parameters and initializes three attributes, self.row, self.coloumn, and self.matrix.
+Define a method setitem() which takes a row, column, and value parameter, and sets the value at the specified row and column in the matrix.
+Define a method getitem() which takes a row and column parameter, and returns the value at the specified row and column in the matrix.
+Define a method len() which returns the total number of elements in the matrix.
+Define a method eq() which takes another matrix object and checks if it has the same number of rows and columns as the current matrix object.
+Define a method add() which takes another matrix object and adds it to the current matrix object, returning a new matrix object.
+Define a method sub() which takes another matrix object and subtracts it from the current matrix object, returning a new matrix object.
+Define a method mul() which takes another matrix object and multiplies it with the current matrix object, returning a new matrix object.
+Define a method det() which calculates and returns the determinant of a square matrix.
+Define a method gen_values() which generates random values for all elements of a matrix.
